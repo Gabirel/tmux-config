@@ -1,8 +1,10 @@
 [Tmux](http://tmux.sourceforge.net/) is a terminal multiplexer. Tested with tmux 1.5+.
 
-This config has support for [tmux-mem-cpu-load](http://github.com/thewtex/tmux-mem-cpu-load).
+This config does not have support for [tmux-mem-cpu-load](http://github.com/thewtex/tmux-mem-cpu-load).(But you can add it by yourself)
 
 Prefix mapped to Ctrl-A for `screen` users.
+
+
 
 Installation
 ------------
@@ -10,21 +12,24 @@ Installation
   Download:
 
 ```bash
-git clone https://github.com/tony/tmux-config.git ~/.tmux
+git clone https://github.com/Gabirel/tmux-config.git
+cd tmux-config
 ```
 
-  Copy tmux config to home:
+  Copy tmux config to /etc:
+ (Maybe you wanna copy it to home directory, it's totally OK, but I like copy it to /etc.)
 
 ```bash
-ln -s ~/.tmux/.tmux.conf ~/.tmux.conf
+sudo cp tmux.conf /etc/
 ```
 
-  Go to config dir:
 
-```bash
-cd ~/.tmux
-```
+THAT'S IT. 
 
+--------------------------------------
+Orignial Document is as followed:
+-------------------------------------
+Click Me to See More: [tony/tmux-config](https://github.com/tony/tmux-config)
 Stats
 -----
 
@@ -180,7 +185,7 @@ More configs / Tools
 * *Modular, Lazy-loading vim configuration* with support for C, C++, Python, Go and Javascript with [tony/vim-config](https://github.com/tony/vim-config)
 * *Modular dot-config example* [tony/.dot-config](https://github.com/tony/.dot-config)
 
-Other
+Forked: Other
 -----
 
 * Github: http://www.github.com/tony
