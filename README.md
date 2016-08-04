@@ -5,6 +5,18 @@ This config does not have support for [tmux-mem-cpu-load](http://github.com/thew
 Prefix mapped to Ctrl-A for `screen` users.
 
 
+Features
+----------
+* Fix fedora `uname -r` compabality
+* Make it colorful in terminal(I DO NOT LIKE DIM STYLE)
+* Remove `uptime`(I DO NOT NEED THIS)
+* Make time look brighter
+
+#####Before: 
+![Before](https://raw.githubusercontent.com/Gabirel/tmux-config/master/Demo/tmux-1.png)
+
+#####After:
+![After](https://raw.githubusercontent.com/Gabirel/tmux-config/master/Demo/tmux-2.png)
 
 Installation
 ------------
